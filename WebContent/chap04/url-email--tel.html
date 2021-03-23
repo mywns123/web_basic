@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+ 	input[type="submit"] {
+      text-align: center;
+      width: 100%;
+      height: 30px;
+      margin-top: 15px;
+   }
+</style>
+</head>
+<body>
+	<form action="loginServlet" method="get">
+	<h1>회원가입</h1>
+	<fieldset>
+	<legend>로그인정보</legend>
+	<ul>
+		<li><label>아이디:<input type = "text" id="id" size="10"></label></li>
+		<li><label>비밀번호:<input type = "password" id="pw" ></label></li>
+		<li><label>비밀번호:<input type = "password" id="rpw" ></label></li>
+	</ul>
+	</fieldset>	
+	<fieldset>
+	<legend>개인정보</legend>
+	<ul>
+		<li><label for="name">이름</label>
+		<input type = "text" id="name"></li>	
+	</ul>
+	<ul>
+		<li><label for="mail">메일 주소</label>
+		<input type = "text" id="mail"></li>	
+	</ul>
+	<ul>
+		<li><label for="phone">연락처</label>
+		<input type = "text" id="phone"></li>	
+	</ul>
+	<ul>
+		<li><label for="homep">블로그/홈페이지</label>
+		<input type = "text" id="homep"></li>	
+	</ul>	
+	</fieldset>		
+	<input type="submit" value="로그인">
+	</form>
+</body>
+</html>

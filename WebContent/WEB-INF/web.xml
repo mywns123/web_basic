@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>web_basic</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+<servlet>
+	<servlet-name>MemRegServlet</servlet-name>
+	<servlet-class>web_basic_jsp_03.MemRegServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>MemRegServlet</servlet-name>
+	<url-pattern>/jsp_03/memReg</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>configTest1</servlet-name>
+	<jsp-file>/jsp_05/configTest1.jsp</jsp-file>
+	<init-param>
+	<param-name>fileDir</param-name>
+	<param-value>c:\test</param-value>
+</init-param>
+</servlet>
+<servlet-mapping>
+	<servlet-name>configTest1</servlet-name>
+	<url-pattern>/jsp_05/configTest1.jsp</url-pattern>
+</servlet-mapping>
+
+<context-param>
+	<description>로깅 여부</description>
+	<param-name>logEnabled</param-name>
+	<param-value>true</param-value>
+</context-param>
+
+<context-param>
+	<description>디버깅 레벨</description>
+	<param-name>debugLevel</param-name>
+	<param-value>5</param-value>
+</context-param>
+
+
+</web-app>

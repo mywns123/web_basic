@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>테이블 일부 셀 합치기</title>
+<style >
+	table, th, td{
+		border:  1px solid; #ccc;
+	}
+	th{
+		padding: 15px;
+	}
+	tr :nth-child(odd) {
+		width: 150px;
+	}
+	tr > td{
+		width: 200px;
+	}
+	#aa{
+		width: 300px;
+	}
+</style>
+</head>
+<body>	
+	<table>	
+		<figcaption>		
+			<Strong>회원정보</Strong>
+			<p>영남인재 회원정보입니다.</p>
+		</figcaption>
+		<tr>
+			<th>이름</th>
+			<td id="aa"></td>
+			<th>연락처</th>
+			<td id="aa"></td>			
+		</tr>		
+		<tr>
+			<th>주소</th>
+			<td colspan = "3"></td>
+		</tr>		
+		<tr>
+			<th>자기소개</th>
+			<td colspan = "3"></td>
+		</tr>	
+	</table>
+</body>
+</html>
