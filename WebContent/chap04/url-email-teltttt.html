@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>회원가입</title>
+<style>
+	ul {
+		list-style:none;
+	}
+	li {
+		margin:20px;
+	}
+	li label {
+		width:150px;
+		float:left;
+	}
+	fieldset {
+		margin:15px;
+	}
+</style>
+</head>
+<body>
+	<h1>회원 가입</h1>
+	<form action="registerServlet2" method="get">
+		<fieldset>
+			<legend>로그인 정보</legend>
+			<ul>
+				<li>
+   				<label for="user-id">아이디 </label>
+					<input type="text" id="user-id" name="id">
+				</li>
+				<li>
+					<label for="pwd1">비밀번호 </label>
+					<input type="password" id="pwd1" name="pwd1">
+				</li>
+				<li>
+					<label for="pwd2">비밀번호 확인 </label>
+					<input type="password" id="pwd2" name="pwd2">				
+				</li>
+			</ul>
+		</fieldset>
+		<fieldset>
+			<legend>개인 정보</legend>
+			<ul>
+				<li>
+					<label for="user-name">이름 </label>
+					<input type="text" id="user-name" name="name">
+				</li>
+				<li>
+					<label for="mail">메일 주소</label>
+					<input type="email" id="mail" name="email">
+				</li>
+				<li>
+					<label for="phone">연락처</label>
+					<input type="tel" id="phone" name="phone">
+				</li>
+				<li>
+					<label for="homep">블로그/홈페이지</label>
+					<input type="url" id="homep" name="homepage">
+				</li>
+			</ul>
+		</fieldset>
+		
+		<fieldset>
+			<legend>등록 정보</legend>
+			<ul>
+				<li>
+					<label class="reg" for="member">참여인원<small>(최대10명)</small></label>
+					<input type="number" id="member" value="1" min="0" max="10" step="1" name="member">
+				</li>
+				<li>
+					<label class="reg" for="stuffs">지원물품<small>(1인당 5개)</small></label>
+					<input type="number" id="stuffs" value="1" min="0" max="50" step="5" name="stuffs">
+				</li>
+				<li>
+					<label class="reg" for="satis">희망 단계<small>(하,중,상)</small></label>
+					<input type="range" id="satis" value="1" min="1" max="3" name="satis">
+				</li>
+			</ul>
+		</fieldset>
+		
+		<fieldset>
+		<legend>신청 과목</legend>
+			<p>이 달에 신청할 과목을 선택하세요 (1과목만 가능)</p>
+			<label><input type="radio" name="subject" value="speaking">회화</label>
+			<label><input type="radio" name="subject" value="grammar">문법</label>
+			<label><input type="radio" name="subject" value="writing">작문</label>
+		</fieldset>
+		
+		<fieldset>
+			<legend>메일링</legend>
+			<p>메일로 받고 싶은 뉴스 주제를 선택해 주세요 (복수 선택 가능)</p>
+			<label><input type="checkbox" name="mailing" value="news">해외 단신</label>
+			<label><input type="checkbox" name="mailing" value="dialog">5분 회화 </label>
+			<label><input type="checkbox" name="mailing" value="pops">모닝팝스</label>
+		</fieldset>
+		
+		<fieldset>
+			<legend>조회 기간</legend>
+			<label><input type="date" id="start" name="start-date"></label>
+			<label><input type="date" id="end" name="end-date"></label>
+		</fieldset>
+		
+		<fieldset>
+			<legend>조회 시간</legend>
+			<label>시작 시간<input type="time" value="09:00" id="start" name="start-time1"></label>,
+			<label>종료 시간<input type="time" value="18:00" id="end" name="end-time1"></label>
+			<label>시작 시간<input type="datetime-local" value="2016-03-02T09:00" id="start" name="start-time2"></label>,
+			<label>종료 시간<input type="datetime-local" value="2016-03-02T18:00" id="end" name="end-time2"></label>
+		</fieldset>
+		<input type="submit" value="가입하기">
+	</form>
+</body>
+</html>
