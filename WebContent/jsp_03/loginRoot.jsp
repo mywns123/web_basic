@@ -20,7 +20,7 @@
 <body>
 	<h1>로그인</h1>
 	<section id = "loginFormArea">
-		<form action="sessionLohin" method="get">
+		<form action="sessionLogin" method="get">
 			<label id ="id">아이디:</label>
 			<input type = "text" name = "id" id ="id">
 			<br>
