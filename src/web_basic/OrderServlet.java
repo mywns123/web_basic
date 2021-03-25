@@ -34,25 +34,20 @@ public class OrderServlet extends HttpServlet {
 		String comment = request.getParameter("comment");
 		
 		String[] fruit = request.getParameterValues("fruit");
-		String fruit1 = request.getParameter("fruit1");
-		String fruit2 = request.getParameter("fruit2");
-		String fruit3 = request.getParameter("fruit3");
-		
-		/*
-		 * int fruit1 = Integer.parseInt(request.getParameter("fruit1")); int fruit2 =
-		 * Integer.parseInt(request.getParameter("fruit2")); int fruit3 =
-		 * Integer.parseInt(request.getParameter("fruit3"));
-		 */
-		
+		int fruit1 = Integer.parseInt(request.getParameter("fruit1"));
+		int fruit2 = Integer.parseInt(request.getParameter("fruit2"));
+		int fruit3 = Integer.parseInt(request.getParameter("fruit3"));
+			
 		out.println("<h2>개인정보</h2><hr>");
 		out.println("이름 : " + uname + "<br>");
 		out.println("연락처 : " + tell + "<br>");
+		
 		out.println("<h2>배송지정보</h2><hr>");
 		out.println("주소 : " + addr + "<br>");
 		out.println("전화번호 : " + tel2 + "<br>");
 		out.println("메모 : " + comment + "<br>");
-		out.println("<h2>주문정보</h2><hr>");
 		
+		out.println("<h2>주문정보</h2><hr>");		
 		for(int i =0; i<fruit.length;i++) {				
 			if(fruit[i].equals("과테말라 안티구아")) {
 				 out.println("과테말라 안티구아 (100g) : " + fruit1 + "<br>");
