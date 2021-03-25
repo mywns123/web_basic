@@ -3,6 +3,26 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<style>
+	.subm{
+		display: block;
+		background-color: #fff;
+		border: 1px solid #dedede;
+		cursor: pointer;
+		padding: 5px 10px 6px 7px;
+	}
+	.subm img{	
+		border: 0;
+		padding: 0;
+		width: 16px;
+		height: 16px;
+	}
+	.subm:hover {
+		background-color: #e6efc2;
+		border: 1px solid #c6d880;
+		color: #529215;
+	}
+</style>
 </head>
 <body>
 	<form action="selectServlet">
@@ -49,13 +69,11 @@
 			sdsd
 			</textarea>		
 			</li>			
-		</ul>
+		</ul>		
+			<button type="submit" class="subm">
+			<img src="images/tick.png" alt="" >전송하기
+		</button>		
 		</fieldset>			
-		<input type="submit" value="전송">				
-		<button type="submit" class="subm">
-		<img alt="" src="">전송하기
-		</button>
-		<br>			
 		<fieldset>
 			<legend>진행 상태 막대 삽입하기</legend>
 			<ul>
