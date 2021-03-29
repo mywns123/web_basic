@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+ * {
+    margin: 20px auto; 
+     }
+
+body{
+	color: blue;
+	}
+	
+#container { 
+        width:600px;  
+        padding:15px;  
+        border:1px dotted gray;  
+      }
+      
+h2{
+	color: brown  !important;
+}

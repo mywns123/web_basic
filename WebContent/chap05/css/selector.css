@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+*{
+	margin: 20px auto;
+}
+
+#container{
+	width:600px;  
+    padding:15px; 
+    border:1px dotted gray;  
+}
+
+p {
+        font-size:0.9em; 
+        line-height:2.0; 
+      }   
+         
+.bluetext {
+        color:blue;
+      }
+      
+h2.accent {
+        background-color:#222;
+        color:#fff;
+        padding:5px;
+      }
+      
+.browntext {
+        color:brown;
+      }
+      
+.boldtext {
+        font-weight: bold;
+      }
