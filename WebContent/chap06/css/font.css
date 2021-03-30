@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+	.size1{font-size: 3em;}
+	.size2{font-size: 1em;}
+	
+	.accent1{
+	font-variant: small-caps;
+	font-weight: bold;
+	}
+	
+	.style{font-style: italic;}
+	.txt1{font-style: normal;}
+	
+	.txt2{font: italic 12px/24px 돋움 글골 스타일, 크기, 줄 간격, 글꼴}
+	
+	.color1{color:rgb(0,200,0);}
+	.color2{color:blue}
+	.accent2{color : #ff0000}
+	
+	.decoration1{line-height: e1.8;}
+	.decoration2{text-decoration: none;}
+	.edited{text-decoration: line-through;}
+	
+	.trans1{text-transform: uppercase;}
+	.trans2{text-transform: capitalize;}
+	
+	.shadow1{
+		color: orange;
+		text-shadow: 1px 1px;	
+	}
+	.shadow2{text-shadow: 5px 5px 3px #f00;	}
+	.shadow3{
+		color: #fff;
+		text-shadow: 7px -7px 5px #000;
+	}
+	.shadow4{
+		color: #000;
+		text-shadow: 0 0 4px #ccc, 0 -5px 4px #ff3, 2px -10px 6px #fd3, -2px -15px 11px #f80, 2px -19px 18px #f20;
+	}	
+	
+	.letter1{ letter-spacing: 0.2em}
+	.letter2{ letter-spacing: 0.5em}
+	
+	.align-left{text-align: left}
+	.align-right{text-align: right}
+	.align-center{text-align: center}
+	.align-justify{text-align: justify}
+	
+	.indent1{text-indent: 15px;}
+	.indent2{text-indent: 5%;}
+	
+	.small-line{line-height: 0.7;}
+	.big-line{line-height: 2;}
+	
+	.content{
+		border: 1px solid #ccc;
+		width: 300px;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	.content:hover{
+		overflow: visible;
+	}

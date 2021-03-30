@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+.sqbullet{list-style-type: square;}
+.nobullet{list-style-type: none;}
+
+.book1{list-style-type: lower-alpha; }
+.book2{list-style-type: upper-roman;}
+
+ul{list-style-image: url('images/dot.png');}
+
+.inside{list-style-position: inside;}
