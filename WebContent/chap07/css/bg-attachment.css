@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body{
+	background-image: url('../images/bottom-bg.jpg');
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-attachment: fixed;	
+}
+
+div{
+	width: 300px;
+	height: auto;
+	margin: 20px auto;
+	padding: 20px;
+}
+
+h1{
+	background-color: #222;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}

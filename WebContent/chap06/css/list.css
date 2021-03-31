@@ -6,6 +6,6 @@
 .book1{list-style-type: lower-alpha; }
 .book2{list-style-type: upper-roman;}
 
-.bullet{list-style-image: url('images/dot.png');}
+.bullet{list-style-image: url('../images/dot.png');}
 
 .inside{list-style-position: inside;}
