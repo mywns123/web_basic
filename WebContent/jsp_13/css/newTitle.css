@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+	ul { list-style: none; }
+	li { margin: 20px; }
+	li label {	width: 100px;	float: left; }
+	h2 { text-align: center;}
