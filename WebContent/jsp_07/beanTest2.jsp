@@ -3,7 +3,7 @@
 <%
 	request.setCharacterEncoding("utf-8");
 %>
-<jsp:useBean id="std" class="web_basic_jsp_07.Student" scope="page"/>
+<jsp:useBean id="std" class="web_basic.jsp_07.Student" scope="page"/>
 <jsp:setProperty property="*" name="std"/>
 <!DOCTYPE html>
 <html>

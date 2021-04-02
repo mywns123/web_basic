@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%request.setCharacterEncoding("utf-8"); %>
-<jsp:useBean id="join" class="web_basic_jsp_07.JoinBean"/>
+<jsp:useBean id="join" class="web_basic.jsp_07.JoinBean"/>
 <jsp:setProperty property="*" name="join"/>
 <!DOCTYPE html>
 <html>

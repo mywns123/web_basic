@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<jsp:useBean id="std" class="web_basic_jsp_07.Student" scope="page"/>
+<jsp:useBean id="std" class="web_basic.jsp_07.Student" scope="page"/>
 <jsp:setProperty property="stdNO" name="std" value="11"/>
 <jsp:setProperty property="stdName" name="std" value="이나"/>
 <jsp:setProperty property="kor" name="std" value="80"/>
