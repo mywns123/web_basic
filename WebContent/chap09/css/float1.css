@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+/* .left-img{
+	float : left;
+	margin-right: 25px; 
+} */
+
+.box1{
+	padding: 20px;
+	margin-right: 10px;
+	background: #ff94ff;
+	float: left;	
+}
+.box2{
+	padding: 20px;
+	background: #00ff21;	
+}

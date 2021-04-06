@@ -1,10 +1,10 @@
 {
 	"folders": {},
 	"connections": {
-		"mysql5-1788ad6fb85-bdfd794ee3ea087": {
+		"mysql5-1789f892633-202d729644ff7189": {
 			"provider": "mysql",
 			"driver": "mysql5",
-			"name": "localhost",
+			"name": "localhost 2",
 			"save-password": true,
 			"show-system-objects": true,
 			"read-only": false,
@@ -18,7 +18,7 @@
 				"handlers": {}
 			}
 		},
-		"mysql5-1788addc1d7-4396f0e472f533cc": {
+		"mysql5-1789f8aa24e-61fd7634491fdcb2": {
 			"provider": "mysql",
 			"driver": "mysql5",
 			"name": "native_jdbc",

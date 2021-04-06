@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+.box1{
+	background: #ffd800;
+	top : 300px;
+	width: 100px;	
+	margin-right: 10px;
+	padding: 20px;
+	float: left;
+}
+
+.box2{
+	position: relative;
+	left : -50px;
+	top : 30px;
+	background: #0094ff;	
+	width: 300px;	
+	padding: 20px;
+	float: left;
+}
