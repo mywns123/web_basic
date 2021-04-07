@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+div{
+	padding: 20px;
+	width: 600px;
+	margin: 20px auto;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	
+}
+.multi{
+	/* -webkit-column-width:120px;
+	-moz-column-width:120px;
+	column-width:120px; */
+	
+	column-count: 3;
+	
+	column-gap: 20px;
+	column-rule: 2px dotted #000;
+	text-align: justify;
+}

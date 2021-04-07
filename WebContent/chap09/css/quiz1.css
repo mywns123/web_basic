@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+ body{
+      font-family:"맑은 고딕", "고딕", "굴림";
+    }
+    a:link {
+      text-decoration:none;
+    }
+    nav ul{
+      list-style-type:none;
+      margin:0px;
+      padding:0px;
+    }
+    nav ul li{
+      float: left;
+      margin-right: 15px;
+      font-size:1.5em;
+      padding-left:7px;
+      margin-bottom:20px;
+      border-left-width:5px;
+      border-left-color:#990066;
+      border-left-style:solid;
+    }
+    section article {
+      padding-left:10px;
+      margin-bottom:10px;
+      border-top:1px #a6a6a6 dashed;
+      border-bottom: 1px #a6a6a6 dashed;
+    }
+ 
+	 #content{
+	 clear: both;
+	 }
+	    
+    
+    

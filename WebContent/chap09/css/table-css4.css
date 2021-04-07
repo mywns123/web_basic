@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+.schedule{
+	display:inline-block;
+	border-collapse: separate;
+	margin: 20px;
+}
+
+td{
+	border: 1px solid black;
+	padding: 10px;
+	text-align: center;
+}
+
+#tb1 td{
+	empty-cells: show;
+}
+
+#tb2 td{
+	empty-cells: hide;
+}
+

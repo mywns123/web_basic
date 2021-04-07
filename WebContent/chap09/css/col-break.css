@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+.multi{
+	column-count: 3;
+	column-rule: 2px dotted #000;
+	text-align: justify;
+}
+
+.multi h3{
+	break-before:column;
+}
+
+.no-col{column-span: all;}
