@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+div{
+	display: inline-block;
+	padding: 10px;
+	margin: 10px;
+	}
+
+.scalex:hover {
+	transform: scaleX(1.2);
+	transition:1s;
+}
+
+.scaley:hover {
+	transform: scaleY(1.5);
+	transition:1s;
+}
+
+.scale:hover {
+	transform: scale(0.7);
+	transition:1s;
+}

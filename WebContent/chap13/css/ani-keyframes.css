@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+div{
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	animation-name: change-bg;
+	animation-duration: 3s;
+}
+
+@keyframes change-bg{
+	from{
+		background-color : blue;
+		border: 1px solid black;
+	}
+	to{
+		background-color:#a5d6ff;
+		border: 1px solid blue;
+		border-radius: 50%;
+	}	
+}

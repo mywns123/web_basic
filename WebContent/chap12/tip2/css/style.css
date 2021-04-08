@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+.box{
+	border: 5px solid #000;
+	text-align: center;
+}
+
+.box div{
+	border: 5px solid #000;
+	margin: 10px;
+	width: 200px;	
+	height: 200px;
+	display: inline-block;
+}
+
+/* .box div:nth-child(1) {
+	background-color: dodgerblue;	
+} */
+.box div:nth-of-type(1) {
+	background-color: dodgerblue;	
+}
+
+
+
+.box div:nth-of-type(2) {
+	background-color: red;	
+}
+
+.box div:nth-of-type(3) {
+	background-color: white;	
+}
+
+.box div:nth-of-type(4) {
+	background-color: gold;	
+}

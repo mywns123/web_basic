@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+div{
+	display: inline-block;
+	padding: 10px;
+	margin: 10px;
+}
+
+.movex:hover {
+	transform: translateX(50px);
+	transition:1s;
+}
+
+.movey:hover {
+	transform: translateY(20px);
+	transition:1s;
+}
+
+.movexy:hover {
+	transform: translate(10px,20px);
+	transition:1s;
+}

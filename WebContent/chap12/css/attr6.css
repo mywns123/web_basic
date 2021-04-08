@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+ul li{display: inline-block;}
+
+a[href $= "hwp"]{
+	background: url(../images/hwp_icon.gif) no-repeat right center;
+	padding:25px;
+}
+
+a[href $= "xls"]{
+	background: url(../images/excel_icon.gif) no-repeat right center;
+	padding:25px;
+}

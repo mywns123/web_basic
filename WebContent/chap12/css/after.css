@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+ul li{
+	margin: 15px;
+}
+
+li.hot::after{
+	content: "NEW!!";
+	font-size: x-small;
+	padding: 2px 4px;
+	margin: 0 10px;
+	border-radius: 2px;
+	background: #f00;
+	color: #fff
+}

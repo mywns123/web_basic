@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+ul li{
+	display: inline-block;
+}
+
+
+ul.navi li:first-child {
+	border-top-left-radius: 1em;
+	border-bottom-left-radius: 1em;
+}
+
+ul.navi li:last-child {
+	border-top-right-radius: 1em;
+	border-bottom-right-radius: 1em;
+}

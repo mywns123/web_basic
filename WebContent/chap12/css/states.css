@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+input:disabled {
+	background: #ddd;
+	border: 1px #ccc solid;
+}
+
+input:checked + span {
+	color: red;
+}

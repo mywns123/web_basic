@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+table tr:nth-child(2n+1) {
+	background: lightgray;
+	color: black;	
+}

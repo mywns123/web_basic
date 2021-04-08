@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+.navi ul li{
+	display: inline-block;
+	width: 150px;
+	padding: 10px;
+}
+
+.navi a:link, .navi a:visited {
+	font-size: 14px;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.navi a:hover, .navi a:focus {
+	background-color: #222;
+	color: #fff;
+}
+
+.navi a:active {
+	background-color: #f00;
+}

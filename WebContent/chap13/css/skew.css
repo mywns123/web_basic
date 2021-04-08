@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+div{
+	display: inline-block;
+	padding: 10px;
+	margin: 10px;
+	}
+
+.origin{perspective: 200px;}
+
+
+.skewx:hover{
+	transform: skewX(30deg);	
+	transition:1s;
+}
+
+.skewy:hover{
+	transform: skewY(15deg);	
+	transition:1s;
+}
+
+.skewxy:hover{
+	transform: skew(-25deg, -15deg);	
+	transition:1s;
+}

@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+a[href *= "w3"]{
+	background: blue;
+	color:white;
+}

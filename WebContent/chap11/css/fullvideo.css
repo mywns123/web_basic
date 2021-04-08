@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+	#container {
+		position:relative;
+      	text-align:center;	
+     	 margin-top :30%;
+     	 margin-left: 30%;  	  
+			}
+      h2 {
+        font-size:2em;
+      }
+			h1{
+				font-size:3.5em;
+			}
+      a:link, a:visited { 
+        text-decoration:none;
+        color:#222;
+      }
+      a:hover {
+        cursor:pointer;
+      }
+      
+      #bg{
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: auto;
+      height: auto;
+      min-width: 100%;
+      min-height: 100%;
+      z-index: -100;
+      background: url(../images/flam.jpg) left top no-repeat;
+      background-size: cover;
+      }
+      
+      

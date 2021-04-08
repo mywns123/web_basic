@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+ul li{
+		display: inline-block;
+}
+
+a[href]{
+	background: yellow;
+}

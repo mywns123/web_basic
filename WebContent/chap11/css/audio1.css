@@ -1,0 +1,7 @@
+@charset "UTF-8";
+.top{
+	widows: 600px;
+	height: 300px;
+	background: url("../images/bg2.jpg");
+	background-size: 100%;
+}

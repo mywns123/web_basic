@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+h1 + ul{
+	color: blue;
+	font-weight: bold;
+}

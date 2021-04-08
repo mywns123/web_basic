@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+div{
+	display: inline-block;
+	padding: 10px;
+	margin: 10px;
+	}
+
+.origin{perspective: 200px;}
+
+
+.rotatex {
+	transform: rotateX(45deg);	
+}
+
+.rotatey {
+	transform: rotateY(45deg);
+}
+
+.rotatez {
+	transform: rotateZ(45deg);
+}
+
+.rotatexyz {
+	transform: rotate3d(2.5,1.2,-1.5,45deg);	
+}
