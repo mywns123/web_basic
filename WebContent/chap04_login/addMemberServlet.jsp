@@ -1,5 +1,6 @@
 
-<%@page import="web_basic_chap04_login.Member"%>
+
+<%@page import="web_basic.chap04_login.Member"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%
 	Member member = (Member)request.getAttribute("member");
